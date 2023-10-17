@@ -3,6 +3,8 @@ import { ref } from 'vue';
 
 const isActive = ref(0)
 
+//TODO: need to fix "Uncaught SyntaxError: Unexpected end of input"
+
 function toggle() {
   return isActive.value =! isActive.value
 }
